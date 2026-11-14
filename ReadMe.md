@@ -23,9 +23,10 @@ For the mission brief, checklist, and results screen, look in `ui.gd`. You'll al
 we used OpenAI Codex to help write and test the Godot code for spacecraft assembly, launch timing, and orbital operations.
 The budgets, equipment costs, and science scores in `classroom.json` are values used for gameplay. The ignition sound is generated in Godot by code written with help from Codex.
 
-## Play on Windows
-
+# Play on Windows
 1. Open the latest release from the **Releases** section and download **Next-Stop-Deep-Space-v1.1-Windows.zip** under **Assets**.
 2. Right-click the downloaded ZIP and choose **Extract All**, then click **Extract**.
 3. Open the extracted **Next Stop Deep Space** folder and double-click **Play.cmd**. The game will open at the mission selection screen.
 
+#PPT demo
+https://docs.google.com/presentation/d/1DT2vLgXTOslIP66KmEWqNI7sef_tabpz/edit?usp=sharing&ouid=112161989016219199790&rtpof=true&sd=true
