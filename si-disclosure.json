@@ -1,0 +1,57 @@
+{
+  "project": "Next Stop: Deep Space",
+  "si_tool": "OpenAI Codex",
+  "disclosures": [
+    {
+      "type": "code",
+      "files": ["mission.gd", "ship_bay.gd", "flight_deck.gd", "orbit_game.gd", "ui.gd"],
+      "use": "Codex helped write and test the code for spacecraft assembly, launch timing, flight operations, and player guidance."
+    },
+    {
+      "type": "data",
+      "files": ["classroom.json"],
+      "use": "Codex helped create the gameplay values for equipment costs, power use, and science goals. These values are part of the game simulation."
+    },
+    {
+        "type": "audio",
+        "tool": "OpenAI Codex",
+        "method": "Godot synthesizes both sound effects from waveforms defined in code.",
+        "sounds": [
+            {
+            "name": "Menu button beep",
+            "source": "ui.gd"
+            },
+            {
+            "name": "Successful ignition chime",
+            "source": "flight_deck.gd"
+            }]
+    },
+    {
+    "type": "3d_models",
+    "tool": "OpenAI Codex",
+    "si_generated_assets": [
+        {
+        "name": "Mission center",
+        "file": "assets/center.glb"
+        },
+        {
+        "name": "Outdoor environment",
+        "file": "assets/yard.glb"
+        }
+        ],
+        "procedural_models": [
+            {
+            "name": "Spacecraft shown during flight",
+            "source": "probe_view.gd",
+            "use": "The game builds the spacecraft at runtime using code written with help from OpenAI Codex."
+            }
+        ],
+        "human_created_assets": [
+            {
+            "name": "Astronaut model",
+            "file": "assets/commander.glb"
+            }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "budget": 140,
+  "base": [
+    26,
+    350,
+    18
+  ],
+  "storage": 8,
+  "turns": 16,
+  "hours": 0.25,
+  "transmit": 58,
+  "safe": 8,
+  "weights": [
+    50,
+    20,
+    15,
+    15
+  ],
+  "event": [
+    5,
+    18,
+    8,
+    0.75,
+    0.65,
+    4
+  ],
+  "tools": [
+    [
+      "Camera",
+      12,
+      35,
+      35,
+      0.65,
+      4
+    ],
+    [
+      "Spectrometer",
+      20,
+      50,
+      65,
+      0.9,
+      7
+    ],
+    [
+      "Radar",
+      30,
+      140,
+      130,
+      1.8,
+      10
+    ],
+    [
+      "Magnetometer",
+      9,
+      18,
+      12,
+      0.3,
+      3
+    ]
+  ],
+  "solar": [
+    [
+      "Compact",
+      8,
+      40,
+      90
+    ],
+    [
+      "Deployable",
+      16,
+      80,
+      190
+    ]
+  ],
+  "battery": [
+    [
+      "Standard",
+      6,
+      25,
+      180
+    ],
+    [
+      "Large",
+      12,
+      60,
+      360
+    ]
+  ],
+  "antenna": [
+    [
+      "Low gain",
+      6,
+      15,
+      0.9
+    ],
+    [
+      "High gain",
+      14,
+      40,
+      2.4
+    ]
+  ],
+  "drive": [
+    [
+      "Chemical",
+      12,
+      80,
+      120
+    ],
+    [
+      "Ion",
+      18,
+      45,
+      210
+    ],
+    [
+      "Cold gas",
+      7,
+      52,
+      78
+    ]
+  ],
+  "rocket": [
+    [
+      "Light",
+      30,
+      750
+    ],
+    [
+      "Medium",
+      44,
+      1300
+    ],
+    [
+      "Heavy",
+      64,
+      2200
+    ]
+  ],
+  "orbit": [
+    [
+      "Low polar",
+      90,
+      1,
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "High polar",
+      60,
+      0.82,
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "Equatorial",
+      75,
+      1.05,
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ]
+    ]
+  ],
+  "missions": [
+    [
+      "South Pole ice survey",
+      40,
+      [
+        1,
+        2
+      ],
+      [
+        0.4,
+        1.5,
+        1.2,
+        0.2
+      ],
+      [
+        1,
+        0.9,
+        0
+      ],
+      "Low polar"
+    ],
+    [
+      "Lunar terrain atlas",
+      35,
+      [
+        0
+      ],
+      [
+        2,
+        0.5,
+        0.3,
+        0.3
+      ],
+      [
+        0.95,
+        0.85,
+        1
+      ],
+      "Equatorial"
+    ],
+    [
+      "Subsurface sounding",
+      45,
+      [
+        2
+      ],
+      [
+        0.3,
+        0.5,
+        1.5,
+        0.8
+      ],
+      [
+        1,
+        0.9,
+        0.55
+      ],
+      "Low polar"
+    ]
+  ],
+  "extras": {
+    "adapter": [
+      "Wide adapter",
+      4,
+      20,
+      0
+    ],
+    "rtg": [
+      "RTG",
+      13,
+      48,
+      45
+    ],
+    "relay": [
+      "Relay module",
+      6,
+      13,
+      0.5
+    ],
+    "radiator": [
+      "Radiator",
+      5,
+      15,
+      25
+    ],
+    "pump": [
+      "Coolant pump",
+      4,
+      10,
+      18
+    ],
+    "insulation": [
+      "Insulation",
+      3,
+      8,
+      10
+    ],
+    "computer": [
+      "Backup computer",
+      4,
+      12,
+      5
+    ],
+    "backup": [
+      "Backup antenna",
+      4,
+      9,
+      0.25
+    ]
+  },
+  "engineering": {
+    "fairing": [
+      2.25,
+      2.85,
+      3.5
+    ],
+    "heat_limit": 90,
+    "balance_limit": 0.105,
+    "imbalance_loss": 0.07
+  }
+}

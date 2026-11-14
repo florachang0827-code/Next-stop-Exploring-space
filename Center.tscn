@@ -1,0 +1,15 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Script" path="res://center.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/center.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/commander.glb" id="3"]
+[ext_resource type="Script" path="res://player.gd" id="4"]
+[ext_resource type="Script" path="res://ui.gd" id="5"]
+[node name="Selene" type="Node3D"]
+script = ExtResource("1")
+building = ExtResource("2")
+[node name="Commander" type="CharacterBody3D" parent="."]
+position = Vector3(0.65,0.72,1.35)
+script = ExtResource("4")
+visual = ExtResource("3")
+[node name="Interface" type="CanvasLayer" parent="."]
+script = ExtResource("5")
